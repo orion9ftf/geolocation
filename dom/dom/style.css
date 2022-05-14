@@ -1,0 +1,80 @@
+.link-dom{
+    background-color: #F7DF1E;
+    color: #222;
+}
+
+:root{
+    --yelow-color:  #F7DF1E;
+    --dark-color: #222;
+}
+
+.cards{
+    border: thin solid var(--dark-color);
+    padding: 1rem;
+}
+
+.card{
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--yelow-color);
+}
+
+.card figcaption{
+    padding: 1rem;
+}
+
+.rotate-45{
+    transform: rotate(45deg);
+}
+
+.rotate-135{
+    transform: rotate(135deg);
+}
+
+.opacity-80{
+    opacity: .8;
+}
+
+.sepia{
+    filter: sepia(1);
+}
+
+.eventos-flujo div {
+    padding: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.uno {
+    background-color: yellow;
+}
+
+.dos {
+    background-color: gold;
+}
+
+.tres {
+    background-color: lightyellow;
+}
+
+.dark-theme-btn{
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    left: 1vw;
+    width: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+}
+
+.dark-theme-btn:hover{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
